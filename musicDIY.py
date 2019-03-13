@@ -1,9 +1,12 @@
 import requests
 import json
 import re
+import os
 
 
 def get_song(x, num):
+    if not os.path.exists('download'):
+        os.makedirs('download')
     url = "http://songsearch.kugou.com/song_search_v2?callback=jQuery112407470964083509348_1534929985284&keyword={}&" \
           "page=1&pagesize=30&userid=-1&clientver=&platform=WebFilter&tag=em&filter=2&iscorrection=1&privilege_filte" \
           "r=0&_=1534929985286".format(x)
