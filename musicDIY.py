@@ -33,7 +33,9 @@ if __name__ == '__main__':
         line = line.strip('\n')
         obj = line.split('-')
         # data.append(line)
-        print(obj)
+        print(obj.__len__())
+        if obj.__len__() == 1:
+            obj.append(1)
         get_song(obj[0], int(obj[1]) if int(obj[1]) > 0 else 1)
     # x =input("请输入歌名：")
     # get_song(x)
