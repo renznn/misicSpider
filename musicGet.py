@@ -2,11 +2,6 @@ import requests
 import json
 import re
 
-'''
-有需要Python学习资料的小伙伴吗?小编整理一套Python资料和PDF，感兴趣者可以加学习群：548377875，反正闲着也是闲着呢，不如学点东西啦~~
-'''
-
-
 def get_song(x):
     url = "http://songsearch.kugou.com/song_search_v2?callback=jQuery112407470964083509348_1534929985284&keyword={}&" \
           "page=1&pagesize=30&userid=-1&clientver=&platform=WebFilter&tag=em&filter=2&iscorrection=1&privilege_filte" \

@@ -1,0 +1,5 @@
+('D:\\PycharmProjects\\music\\build\\musicDIY\\chardet-3.0.4-py2.7.egg',
+ None,
+ set(['*.py', '*.pyc', '*.pyd', '*.pyw', 'EGG-INFO']),
+ 'DATA',
+ [])
